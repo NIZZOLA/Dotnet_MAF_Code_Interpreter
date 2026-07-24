@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="rQ-1fs7GzmkwlODcuZkF">
+    <mxGraphModel dx="1470" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" value="ExcelInsights - Arquitetura" vertex="1">
+          <mxGeometry height="40" width="370" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Usuário" vertex="1">
+          <mxGeometry height="120" width="60" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="ConversationLoop" vertex="1">
+          <mxGeometry height="70" width="160" x="240" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-4" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="3QF2U7ScPxNMN3R_taZH-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="AIAgent&lt;br&gt;(Agent Framework)" vertex="1">
+          <mxGeometry height="70" width="160" x="500" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-6" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="3QF2U7ScPxNMN3R_taZH-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;verticalAlign=top;fontColor=#333333;" value="instructions =&lt;br&gt;dicionário de dados" vertex="1">
+          <mxGeometry height="60" width="140" x="740" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;verticalAlign=top;fontColor=#333333;" value="tool =&lt;br&gt;HostedCodeInterpreter&lt;br&gt;Tool(file-id)" vertex="1">
+          <mxGeometry height="80" width="140" x="740" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-9" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-5" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;" target="3QF2U7ScPxNMN3R_taZH-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="240" as="sourcePoint" />
+            <mxPoint x="710" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-10" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-5" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;" target="3QF2U7ScPxNMN3R_taZH-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="280" as="sourcePoint" />
+            <mxPoint x="710" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" value="Azure AI Foundry" vertex="1">
+          <mxGeometry height="70" width="160" x="500" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-12" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="3QF2U7ScPxNMN3R_taZH-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="320" as="sourcePoint" />
+            <mxPoint x="580" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1" value="sandbox Python&lt;br&gt;(pandas/openpyxl)" vertex="1">
+          <mxGeometry height="70" width="160" x="500" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-14" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="3QF2U7ScPxNMN3R_taZH-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="490" as="sourcePoint" />
+            <mxPoint x="580" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-15" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;size=15;" value="planilha.xlsx&lt;br&gt;(upload prévio)" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-16" edge="1" parent="1" source="3QF2U7ScPxNMN3R_taZH-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" target="3QF2U7ScPxNMN3R_taZH-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="640" as="sourcePoint" />
+            <mxPoint x="580" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Componentes Principais" vertex="1">
+          <mxGeometry height="30" width="220" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="Program.cs" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Composição geral, config, credenciais" vertex="1">
+          <mxGeometry height="30" width="200" x="230" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="AppOptions.cs" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Configuração tipada (Foundry, Spreadsheet)" vertex="1">
+          <mxGeometry height="30" width="240" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="FileUploadService.cs" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Upload/remoção da planilha no Foundry" vertex="1">
+          <mxGeometry height="30" width="220" x="230" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="ExcelAgentFactory.cs" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Cria AIAgent com Code Interpreter" vertex="1">
+          <mxGeometry height="30" width="220" x="230" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="ConversationLoop.cs" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Sessão conversacional (memória)" vertex="1">
+          <mxGeometry height="30" width="200" x="230" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="spreadsheet-instructions.md" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Dicionário de dados (abas/colunas)" vertex="1">
+          <mxGeometry height="30" width="220" x="230" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-30" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" value="Fluxo de Dados" vertex="1">
+          <mxGeometry height="30" width="150" x="760" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="1. Usuário faz pergunta em linguagem natural" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="2. ConversationLoop mantém contexto da conversa" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="3. AIAgent recebe instructions (dicionário)" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="4. Code Interpreter executa Python no sandbox" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-35" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="5. Python acessa planilha.xlsx (pandas/openpyxl)" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="6. Resultado retorna ao usuário" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;align=center;verticalAlign=top;" value="Tecnologias" vertex="1">
+          <mxGeometry height="160" width="280" x="760" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="• .NET 9 SDK (C#)" vertex="1">
+          <mxGeometry height="20" width="250" x="775" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="• Microsoft Agent Framework" vertex="1">
+          <mxGeometry height="20" width="250" x="775" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="• Azure AI Foundry (gpt-4o, gpt-5-mini)" vertex="1">
+          <mxGeometry height="20" width="250" x="775" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-41" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="• Code Interpreter Tool (Python sandbox)" vertex="1">
+          <mxGeometry height="20" width="250" x="775" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="3QF2U7ScPxNMN3R_taZH-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="• pandas/openpyxl para Excel" vertex="1">
+          <mxGeometry height="20" width="250" x="775" y="725" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

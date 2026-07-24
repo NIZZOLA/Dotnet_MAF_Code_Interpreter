@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ExcelInsights</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Microsoft Agent Framework + Azure AI Foundry (Hosted Agent path).
+         Azure.AI.Projects já traz Azure.Core, que fornece DefaultAzureCredential;
+         por isso NÃO referenciamos Azure.Identity separadamente (evita ambiguidade CS0433). -->
+    <PackageReference Include="Microsoft.Agents.AI.Foundry" Version="*-*" />
+    <PackageReference Include="Azure.AI.Projects" Version="*-*" />
+
+    <!-- Hosting, configuration, logging -->
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Prompts\spreadsheet-instructions.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
